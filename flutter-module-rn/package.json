@@ -1,0 +1,72 @@
+{
+  "name": "flutter-module-rn",
+  "title": "Flutter module RN",
+  "version": "2.0.37",
+  "license": "MIT",
+  "description": "Flutter module as a React Native package",
+  "main": "build/rn/commonjs/index.js",
+  "module": "build/rn/module/index.js",
+  "types": "build/rn/typescript/index.d.ts",
+  "react-native": "src/index",
+  "source": "src/index",
+  "files": [
+    "README.md",
+    "android",
+    "index.js",
+    "ios",
+    "build",
+    "FlutterModuleRn.podspec"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/p-mazhnik/rn-package-flutter.git",
+    "baseUrl": "https://github.com/p-mazhnik/rn-package-flutter/rn-flutter"
+  },
+  "homepage": "https://github.com/p-mazhnik/rn-package-flutter/rn-flutter",
+  "keywords": [
+    "react-native"
+  ],
+  "scripts": {
+    "rn:build": "bob build",
+    "android:build": "cd ../flutter_module && flutter build aar --no-tree-shake-icons &&  ncp build/host ../flutter-module-rn/build/host && cd ../flutter-module-rn",
+    "ios:buildson": "cd ../flutter_module && flutter build ios-framework --cocoapods --no-tree-shake-icons --no-profile --output=../flutter-module-rn/build/ios/framework && cd ../flutter-module-rn && yarn ios:zip",
+
+    "android:buildrelease": "cd ../flutter_module && flutter build aar --no-tree-shake-icons --no-debug --no-profile &&  ncp build/host ../flutter-module-rn/build/host && cd ../flutter-module-rn",
+    "ios:zip": "cd ./build/ios/framework && mv Release/Flutter.podspec . && zip -rm Debug.zip Debug && zip -rm Release.zip Release",
+    "web:build": "cd ../flutter_module &&  flutter build web --base-href /flutter/ --output=../rn-flutter/build/web && cd ../rn-flutter"
+  },
+  "author": {
+    "name": "p-mazhnik",
+    "url": "https://github.com/p-mazhnik"
+  },
+  "readmeFilename": "README.md",
+  "peerDependencies": {
+    "react": ">=17.0.1",
+    "react-native": ">=0.65.0 <1.0.x"
+  },
+  "peerDependenciesMeta": {
+    "react-native": {
+      "optional": true
+    }
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.24",
+    "@types/react-native": "0.72.2",
+    "ncp": "^2.0.0",
+    "react-native-builder-bob": "^0.21.2",
+    "rimraf": "^3.0.2",
+    "typescript": "4.8.4"
+  },
+  "resolutions": {
+    "@types/react": "^18.0.24"
+  },
+  "react-native-builder-bob": {
+    "source": "src",
+    "output": "build/rn",
+    "targets": [
+      "commonjs",
+      "module",
+      "typescript"
+    ]
+  }
+}
