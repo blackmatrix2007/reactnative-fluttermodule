@@ -28,43 +28,7 @@ dependencies:
 
   # image_editor_plus: ^0.2.0
   cached_network_image: ^3.2.3
-  mp_file_picker_runtime:
-    path: /Users/sondhoang/DevelopWorkSpace/mbbank/mbbank-multiple-feature/rdmbflutter/mbflutter/packages/mp_file_picker_runtime
-
-
-  mp_flutter_runtime:
-    path: /Users/sondhoang/DevelopWorkSpace/mbbank/mbbank-multiple-feature/rdmbflutter/mbflutter/packages/mp_flutter_runtime
-
-  mp_switch_runtime:
-    path: /Users/sondhoang/DevelopWorkSpace/mbbank/mbbank-multiple-feature/rdmbflutter/mbflutter/packages/mp_switch_runtime
-
-  mp_lottie_runtime:
-    path: /Users/sondhoang/DevelopWorkSpace/mbbank/mbbank-multiple-feature/rdmbflutter/mbflutter/packages/mp_lottie_runtime
-
-  mp_syncfunsion_flutter_pdfviewer_runtime:
-    path: /Users/sondhoang/DevelopWorkSpace/mbbank/mbbank-multiple-feature/rdmbflutter/mbflutter/packages/mp_syncfunsion_flutter_pdfviewer_runtime
-
-  mp_encrypt_runtime:
-    path: /Users/sondhoang/DevelopWorkSpace/mbbank/mbbank-multiple-feature/rdmbflutter/mbflutter/packages/encrypt_runtime
-  mp_device_info_plus_runtime:
-    path: /Users/sondhoang/DevelopWorkSpace/mbbank/mbbank-multiple-feature/rdmbflutter/mbflutter/packages/device_info_plus_runtime
-
-  camera_package_smart_capture:
-    path: /Users/sondhoang/DevelopWorkSpace/mbbank/mbbank-multiple-feature/rdmbflutter/mbflutter/packages/camera_package_smart_capture
-  image_editor_plus:
-    path: /Users/sondhoang/DevelopWorkSpace/mbbank/mbbank-multiple-feature/rdmbflutter/mbflutter/packages/image_editor_plus_custom
-  mp_image_editor_custom_runtime:
-    path: /Users/sondhoang/DevelopWorkSpace/mbbank/mbbank-multiple-feature/rdmbflutter/mbflutter/packages/image_editor_plus_runtime
   
-  flutter_image_edit_watermark:
-    path: /Users/sondhoang/DevelopWorkSpace/mbbank/mbbank-multiple-feature/rdmbflutter/mbflutter/packages/mp_flutter_water_mark
-  mp_convert_image_to_pdf_runtime:
-    path: /Users/sondhoang/DevelopWorkSpace/mbbank/mbbank-multiple-feature/rdmbflutter/mbflutter/packages/mp_convert_image_pdf_runtime
-  mp_view_pdf_runtime:
-    path: /Users/sondhoang/DevelopWorkSpace/mbbank/mbbank-multiple-feature/rdmbflutter/mbflutter/packages/view_pdf_rumtime
-  mp_connectivity_plus_runtime:
-    path: /Users/sondhoang/DevelopWorkSpace/mbbank/mbbank-multiple-feature/rdmbflutter/mbflutter/packages/mp_connectivity_plus_runtime
-
   json_annotation: ^4.8.0
   permission_handler: ^10.2.0
   image_picker: 0.8.7+3

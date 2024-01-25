@@ -18,11 +18,9 @@
     "FlutterModuleRn.podspec"
   ],
   "repository": {
-    "type": "git",
-    "url": "git+https://github.com/p-mazhnik/rn-package-flutter.git",
-    "baseUrl": "https://github.com/p-mazhnik/rn-package-flutter/rn-flutter"
+    "type": "git"
   },
-  "homepage": "https://github.com/p-mazhnik/rn-package-flutter/rn-flutter",
+  "homepage": "",
   "keywords": [
     "react-native"
   ],
@@ -36,8 +34,7 @@
     "web:build": "cd ../flutter_module &&  flutter build web --base-href /flutter/ --output=../rn-flutter/build/web && cd ../rn-flutter"
   },
   "author": {
-    "name": "p-mazhnik",
-    "url": "https://github.com/p-mazhnik"
+    "name": "sondhoang"
   },
   "readmeFilename": "README.md",
   "peerDependencies": {
