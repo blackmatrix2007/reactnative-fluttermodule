@@ -1,7 +1,7 @@
 {
   "name": "flutter-module-rn",
   "title": "Flutter module RN",
-  "version": "2.0.37",
+  "version": "2.0.38",
   "license": "MIT",
   "description": "Flutter module as a React Native package",
   "main": "build/rn/commonjs/index.js",
@@ -18,9 +18,11 @@
     "FlutterModuleRn.podspec"
   ],
   "repository": {
-    "type": "git"
+    "type": "git",
+    "url": "git+https://github.com/blackmatrix2007/reactnative-fluttermodule",
+    "baseUrl": "https://github.com/blackmatrix2007/reactnative-fluttermodule"
   },
-  "homepage": "",
+  "homepage": "https://github.com/blackmatrix2007/reactnative-fluttermodule",
   "keywords": [
     "react-native"
   ],
@@ -34,7 +36,8 @@
     "web:build": "cd ../flutter_module &&  flutter build web --base-href /flutter/ --output=../rn-flutter/build/web && cd ../rn-flutter"
   },
   "author": {
-    "name": "sondhoang"
+    "name": "blackmatrix2007",
+    "url": "https://github.com/blackmatrix2007"
   },
   "readmeFilename": "README.md",
   "peerDependencies": {

@@ -72,14 +72,14 @@ PODS:
     - FlipperKit/Core
     - FlipperKit/FlipperKitNetworkPlugin
   - Flutter (3.7.1100)
-  - flutter-module-rn (2.0.29):
+  - flutter-module-rn (2.0.38):
     - Flutter
     - FlutterModuleFrameworks-Debug
     - FlutterModuleFrameworks-Release
     - React-Core
-  - FlutterModuleFrameworks-Debug (2.0.29):
+  - FlutterModuleFrameworks-Debug (2.0.38):
     - Flutter
-  - FlutterModuleFrameworks-Release (2.0.29):
+  - FlutterModuleFrameworks-Release (2.0.38):
     - Flutter
   - fmt (6.2.1)
   - glog (0.3.5)
@@ -560,9 +560,9 @@ SPEC CHECKSUMS:
   Flipper-RSocket: d9d9ade67cbecf6ac10730304bf5607266dd2541
   FlipperKit: cbdee19bdd4e7f05472a66ce290f1b729ba3cb86
   Flutter: f53fdae6af0436d8010ffeb0484de38076a333bf
-  flutter-module-rn: 67c7ebeb8e29232118039e171fe920cf8cd0cf60
-  FlutterModuleFrameworks-Debug: 8e9f7813e5dbf3220de46cdb8e94e1eeda907ac8
-  FlutterModuleFrameworks-Release: 7099beb90da4ecf08edc159ceb3be813097d8f29
+  flutter-module-rn: c393c8eff23cc9443738298bcdb7b4c947cf5dde
+  FlutterModuleFrameworks-Debug: 9520a3aabd79ff34740e8ae9b057f878ddfc31a2
+  FlutterModuleFrameworks-Release: cb21a7d900ec6115d533986d6ae27ad3320fbb21
   fmt: ff9d55029c625d3757ed641535fd4a75fedc7ce9
   glog: 04b94705f318337d7ead9e6d17c019bd9b1f6b1b
   hermes-engine: 7fe5fc6ef707b7fdcb161b63898ec500e285653d

@@ -3158,7 +3158,7 @@ flow-parser@^0.121.0:
   integrity sha512-1gIBiWJNR0tKUNv8gZuk7l9rVX06OuLzY9AoGio7y/JT4V1IZErEMEq2TJS+PFcw/y0RshZ1J/27VfK1UQzYVg==
 
 "flutter-module-rn@file:../flutter-module-rn":
-  version "2.0.31"
+  version "2.0.38"
 
 for-each@^0.3.3:
   version "0.3.3"

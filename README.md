@@ -22,12 +22,6 @@ cd miniflutter
 
 yarn add  file:../flutter-module-rn
 
-
+### android open android studio and build
 ### ios
-add to podfile
-
-require_relative '../node_modules/flutter-module-rn/ios/pods'
-use_flutter_module_rn!()
-
-
-then `pod install`
+cd ios && pod install

@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_module/testsmartcapture.dart';
 
 class NavigationService {
   static GlobalKey<NavigatorState> navigatorKey = GlobalKey<NavigatorState>();
@@ -23,7 +24,7 @@ class _MyPageState extends State<MyApp> {
         primarySwatch: Colors.blue,
       ),
       debugShowCheckedModeBanner: false,
-      home: Container(),
+      home: const SmartMyHomePage(),
       navigatorKey: NavigationService.navigatorKey,
     );
   }
