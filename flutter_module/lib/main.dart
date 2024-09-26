@@ -1,11 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_module/testsmartcapture.dart';
+import 'ext/template_method_channel.dart';
 
 class NavigationService {
   static GlobalKey<NavigatorState> navigatorKey = GlobalKey<NavigatorState>();
 }
 
 void main() {
+  extMain();
   WidgetsFlutterBinding.ensureInitialized();
   runApp(MyApp());
 }

@@ -20,7 +20,7 @@ import {
 
 import { Colors, Header } from 'react-native/Libraries/NewAppScreen';
 
-import  { FlutterModuleRn , FlutterModuleRnView } from 'flutter-module-rn';
+import  { FlutterModuleRn  } from 'flutter-module-rn';
 import { View } from 'react-native';
 
 const testNetWork = ()=>{
@@ -39,7 +39,7 @@ const startFlutterScreen = async() => {
   const data = {
     'accessToken': "son",
     'refreshToken': "123",
-    'devMode': false,
+    'devMode': true,
     'ip':'192.168.1.42'
   }
 
@@ -76,7 +76,7 @@ const App = () => {
         contentInsetAdjustmentBehavior="automatic"
         style={backgroundStyle}>
         <Header />
-        <FlutterModuleRnView style={{backgroundColor:'green',width:40,height:40}} />
+        {/* <FlutterModuleRnView style={{backgroundColor:'green',width:40,height:40}} /> */}
         <Button title={'Start Flutter Screen'} onPress={startFlutterScreen} />
         <View style={{height:10}} />
         <Button title={'Start Testnetwork'} onPress={testNetWork} />

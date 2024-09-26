@@ -2,6 +2,8 @@ import 'dart:async';
 import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:mp_flutter_runtime/mp_flutter_runtime.dart';
+import 'ext/template_method_channel.dart';
 
 class Splash extends StatelessWidget {
   const Splash({Key? key}) : super(key: key);
@@ -85,6 +87,7 @@ class _SetIPScreenState extends State<SetIPScreen> {
   Uint8List? data;
   @override
   void initState() {
+    extBeforeInitState();
     WidgetsBinding.instance.addPostFrameCallback((timeStamp) async {
       setState(() async {
         platform.setMethodCallHandler(_handleMessage);
@@ -99,9 +102,16 @@ class _SetIPScreenState extends State<SetIPScreen> {
   @override
   Widget build(BuildContext context) {
     if (data != null && _accessToken != "" && _refreshToken != "") {
-      //generate page with container
-      return Container(
-        child: Text("Hello" + _accessToken),
+      return MPMiniPageDebug(
+        splash: Container(),
+        mpk: _devMode == true ? null : data,
+        dev: _devMode,
+        initParams: {
+          'accessToken': _accessToken,
+          'refreshToken': _refreshToken,
+        },
+        ip: _ip,
+        packageId: "com.miniapp.app",
       );
     } else {
       return Container();

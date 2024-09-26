@@ -15,7 +15,7 @@ description: A new flutter module project.
 # This version is used _only_ for the Runner app, which is used if you just do
 # a `flutter run` or a `flutter make-host-app-editable`. It has no impact
 # on any other native host app that you embed your Flutter project into.
-version: 1.0.0+38
+version: 1.0.0+41
 
 environment:
   sdk: '>=2.12.0 <3.0.0'
@@ -29,9 +29,60 @@ dependencies:
   # image_editor_plus: ^0.2.0
   cached_network_image: ^3.2.3
   
+  mp_flutter_runtime:
+    path: ..packages/mp_flutter_runtime
+  mp_encrypt_runtime:   
+    path: ..packages/encrypt_runtime 
+  mp_device_info_plus_runtime:   
+    path: ..packages/device_info_plus_runtime 
+  image_editor_plus:   
+    path: ..packages/image_editor_plus_custom 
+  mp_image_editor_custom_runtime:   
+    path: ..packages/image_editor_plus_runtime 
+  flutter_image_edit_watermark:   
+    path: ..packages/mp_flutter_water_mark 
+  
+  
+  mp_convert_image_to_pdf_runtime:    
+    path: ..packages/mp_convert_image_pdf_runtime
+  #  mp_view_pdf_runtime:#    path: ..packages/view_pdf_rumtime 
+  
+  #  syncfusion_flutter_pdfviewer: 20.3.59 
+  camera_package_smart_capture:   
+    path: ..packages/camera_package_smart_capture
+
+
+  mp_mobile_scanner_runtime:   
+    path: ..packages/mp_mobile_scanner_runtime 
+
+
+  camera_capture_image_runtime:   
+    path: ..packages/camera_capture_image_runtime 
+
+
+  mp_generate_qr_runtime:   
+    path: ..packages/mp_generate_qr_runtime
+
+
+
+  mp_cupertino_datetime_runtime:   
+    path: ..packages/mp_cupertino_datetime_runtime 
+  mp_syncfunsion_flutter_pdfviewer_runtime:   
+    path: ..packages/mp_syncfunsion_flutter_pdfviewer_runtime 
+  mp_file_picker_runtime:   
+    path: ..packages/mp_file_picker_runtime 
+  mp_lottie_runtime:   
+    path: ..packages/mp_lottie_runtime 
+  mp_switch_runtime:   
+    path: ..packages/mp_switch_runtime 
+  mp_qr_code_scan_runtime:   
+    path: ..packages/mp_qr_code_runtime 
+  mp_connectivity_plus_runtime:   
+    path: ..packages/mp_connectivity_plus_runtime   
+
   json_annotation: ^4.8.0
   permission_handler: ^10.2.0
-  image_picker: 0.8.7+3
+  image_picker: ^0.8.7+4
   shared_preferences: ^2.0.18
   path_provider: ^2.0.13
   another_flushbar: ^1.12.29
